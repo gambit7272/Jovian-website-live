@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        My second Web Page
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img id="Banner" src="Banner.jpg" alt="Banner image" height="360">
+    <h1>About Jovian</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At Jovian, we're on a mission to build the worlds most highly reputed
+                technical university, and we're building it completely online. We offer
+                several beginner friendly course that are taken by 300,00+ reg users.
+            </p>
+            <p> We also offer 2 Industry-Focused Bootcamps</p>
+            <ol>
+                <li>
+                    <a href="https://www.google.co.in/" target="_blank">Fullstack Developer
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank"> Devops Engg</a>
+                </li>
+            </ol>
+        </div>
+        <div id="Team">
+            <img id="team-image" src="team.jpg" alt="Team pic">
+        </div>
+    </div>
+
+
+    <h2>Job Oppertunitie</h2>
+    <div id="Job">
+        <table id="Jobs-table">
+            <tr class="Jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="Jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+
+            </tr>
+            <tr class="Jobs-data-row">
+                <td>FrontEnd Developer</td>
+                <td>Banglore, India</td>
+                <td>India</td>
+                <td>12,00,000</td>
+                <td>March 03 2023</td>
+            </tr>
+            <tr class="Jobs-data-row">
+                <td>Fullstack Developer</td>
+                <td>New Delhi,</td>
+                <td>India</td>
+                <td>15,00,000</td>
+                <td>Feb 01 2023</td>
+            </tr>
+            <tr class="Jobs-data-row">
+                <td>Data scientist</td>
+                <td>San Francis</td>
+                <td>USA</td>
+                <td>$175,00,00,00</td>
+                <td>Dec 02 2022</td>
+            </tr>
+            <tr class="Jobs-data-row">
+                <td>ML Engg</td>
+                <td colspan="2">Remote</td>
+                <td>$80,00,000</td>
+                <td>Sep 11 2019</td>
+            </tr>
+
+        </table>
+    </div id="application">
+    <h2>Submit your Application</h2>
+    <form id="application-form" action="https://formbold.com/s/oyD8a" method="POST">
+        <div class="form-group">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="Full Name" required placeholder="John Doe">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="Email address" required placeholder="JohnDoe@email">
+        </div>
+        <div class="form-group">
+
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="position">Position Applied for</label><br>
+            <select id="Position" name="Position applied for" required>
+                <option value="">Select an option</option>
+                <option value="FrontEnd">FrontEnd Developer</option>
+                <option value="Backend">Backend Developer</option>
+                <option value="Fullstack">Fullstack Developer</option>
+                <option value="ML engg">ML Engg</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label for="resume">Upload Resume</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        </div>
+        <div class="form-group">
+            <label for="coverletter">Cover Letter</label><br>
+            <textarea id="coverletter" name="coverletter" rows="5" placeholder="Explain what makes you suitable for the job.."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                I agree to the terms and conditions
+            </label>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+    <div>
+
+    </div>
+    <div id="footer-links">
+        <ul id="footer">
+            <li>
+                <a href="https://www.lazarusinfotech.com" target="_blank"> Course</a>
+
+            </li>
+            <li>
+                <a href="https://www.lazarusinfotech.com" target="_blank">Names</a>
+            </li>
+            <li>
+                <a href="https://www.lazarusinfotech.com" target="_blank">FB</a>
+            </li>
+
+        </ul>
+        <span>© 2024</span>
+
+</body>
+
+</html>
